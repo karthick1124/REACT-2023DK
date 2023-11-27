@@ -1,0 +1,46 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url(https://lp-cms-production.imgix.net/features/2017/09/dubai-marina-skyline-2c8f1708f2a1.jpg);
+  background-repeat: no-repeat;
+  background-size:cover;
+
+}
+AppBar {
+  background-color: #333;
+}
+
+Toolbar {
+  display: flex;
+  justify-content: center;
+}
+
+Typography {
+  color: white;
+}
+Container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+Paper {
+  padding: 20px;
+  width: 100%;
+
+}
+TextField,
+Select {
+  width: 100%;
+  margin-bottom: 20px;
+}
+Button {
+  width: 100%;
+  margin-top: 20px;
+  background-color: #4caf50;
+  color: white;
+}
+
+Button:hover {
+  background-color: #45a049;
+}
